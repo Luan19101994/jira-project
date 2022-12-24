@@ -1,0 +1,68 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+/* Config antd */
+
+.ant-form .ant-form-item {
+    @apply mb-8 !important;
+}
+
+/* .ant-form .ant-input {
+    @apply h-10 !important;
+} */
+.ant-input-password input {
+    @apply h-[30px] !important;
+}
+
+span.ant-avatar-string {
+    top: -1px !important;
+}
+
+.ant-btn-primary {
+    background-color: #1677ff;
+}
+
+.ant-tag {
+    padding: 0 15px !important;
+}
+
+.ant-modal-wrap .ant-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0 !important;
+}
+
+span.ant-select-selection-item {
+    display: flex;
+    align-items: center;
+}
+
+.assigner .ant-select,
+.ant-select-selector {
+    height: auto !important;
+}
+
+.relase .rs-progress-line-bg {
+    background-color: #ff950c !important
+}
+
+.relase a,
+.calander a, .fc-toolbar-title {
+    color: #ff950c !important
+}
+
+.fc-h-event,
+.fc-daygrid-event-dot,
+.fc .fc-button-primary,
+.fc .fc-button-primary:not(:disabled):active,
+.fc .fc-button-primary:not(:disabled).fc-button-active {
+    background-color: #ff950c !important;
+    color: var(--rs-btn-primary-text);
+    border-color: 1px solid #ff950c !important;
+    border-color: #ff950c !important
+}
+
+.fc-event-title {
+    font-weight: 200;
+}

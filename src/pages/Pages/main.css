@@ -1,0 +1,12 @@
+.page {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    display: grid;
+}
+
+.page img {
+    width: 100px;
+
+}

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;700&family=Tomorrow:wght@500&display=swap');
+
+h1, h2, h3, h4, h5, h6, a, p, span {
+    font-family: 'Lexend', sans-serif !important;
+}
+a:hover {
+    text-decoration: none !important;
+}
+
+.create-task::-webkit-scrollbar {
+    display: none;
+}
